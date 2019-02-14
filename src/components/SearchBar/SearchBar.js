@@ -5,7 +5,7 @@
 */
 
 import React from 'react';
-import Style from './SearchBar.css';
+import './SearchBar.css';
 
 const sortByOptions = {
 	'Best Match': 'best_match',
@@ -35,7 +35,7 @@ class SearchBar extends React.Component {
 			    	<input placeholder="Where?" />
 			  	</div>
 			  	<div className="SearchBar-submit">
-			    	<a>Let's Go</a>
+			    	<a href="google.com">Let's Go</a>
 			  	</div>
 			</div>
 		);

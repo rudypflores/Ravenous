@@ -8,7 +8,7 @@
 import React from 'react';
 
 //Import of Business.css
-import Style from './business.css';
+import './Business.css';
 
 //The Business Object
 const business = {imageSrc: 'https://s3.amazonaws.com/codecademy-content/programs/react/ravenous/pizza.jpg',
@@ -30,7 +30,7 @@ class Business extends React.Component {
 			  	<div className="image-container">
 			    	<img 
 			    		src= {business.imageSrc} 
-			    		alt='Picture of pizza'/>
+			    		alt='Full sized margherita pizza'/>
 			  	</div>
 			  		<h2>{business.name}</h2>
 			 	 <div className="Business-information">

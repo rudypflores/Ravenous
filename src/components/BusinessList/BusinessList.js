@@ -6,7 +6,7 @@
 
 //Import React Model and Style Properties
 import React from 'react';
-import Style from './BusinessList.css';
+import './BusinessList.css';
 
 //Import for simulation of different Businesses
 import Business from '../Business/Business';
