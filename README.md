@@ -1,2 +1,2 @@
 # Ravenous
-Yelp-like web application developed by using React.js
+Yelp-like web application developed by using NodeJs for the backend, and React.js for the main structure of the application.
